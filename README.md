@@ -4,11 +4,11 @@
 
 ### Software Engineer · AI Solutions Architect · Technology Leader
 
-**I turn complex business challenges into well-designed, practical technology.**
+**I design and build technology that turns complex business problems into practical, scalable solutions.**
 
-Systems engineer with 15+ years of experience connecting software, digital products, and business growth across Latin America.
+Systems engineer with 15+ years of experience spanning software, digital commerce, product development, and business leadership across Latin America.
 
-[**Personal website**](https://juanfer.ai) &nbsp;·&nbsp; [**GitHub**](https://github.com/juanfervelez) &nbsp;·&nbsp; [**MatchFore Project**](https://matchfore.com) &nbsp;·&nbsp; [**LeadWize Project**](https://leadwize.app)
+[**Personal website**](https://juanfer.ai) &nbsp;·&nbsp; [**MatchFore**](https://matchfore.com) &nbsp;·&nbsp; [**LeadWize**](https://leadwize.app)
 
 </div>
 
@@ -16,69 +16,130 @@ Systems engineer with 15+ years of experience connecting software, digital produ
 
 ## About me
 
-My career has taken me from building and delivering technology to leading teams, scaling businesses, and helping organizations navigate digital transformation. Along the way, I've kept the same conviction: **technology matters when it creates real value for the people and businesses using it.**
+I work where **engineering, artificial intelligence, and business strategy** meet.
 
-Today, I work at the intersection of **software engineering, applied AI, cloud architecture, and product strategy**. I enjoy moving between the big picture and the implementation details—understanding the problem, designing the system, and building what is needed to make it work.
+My career has included building digital solutions, leading technology-driven organizations, and helping companies modernize the way they operate. That experience shapes how I approach software today: understand the underlying problem, make thoughtful architectural decisions, and build products that deliver meaningful value.
 
-I bring both an engineer's mindset and the perspective of someone who has led technology-driven businesses in startup and enterprise environments.
+I'm particularly interested in **applied AI, intelligent workflows, digital commerce, cloud-native systems, and web and mobile product engineering**. I enjoy working across the entire journey—from discovery and architecture to implementation and iteration.
 
-## What I work on
+## What I focus on
 
-| Area | Focus |
-| :-- | :-- |
-| **Applied AI** | AI agents and assistants, LLM-enabled workflows, automation, human-in-the-loop design, and responsible adoption. |
-| **Software architecture** | Full-stack applications, APIs, integrations, system design, and maintainable engineering foundations. |
-| **Web & mobile products** | Cross-platform product experiences, native mobile applications, and modern web development. |
-| **Cloud & backend** | Serverless architectures, Firebase, Google Cloud, authentication, data modeling, and deployment workflows. |
-| **Digital commerce & business systems** | E-commerce platforms, enterprise integrations, process modernization, and technology-led business transformation. |
+| Discipline | Areas of work |
+| :--- | :--- |
+| **AI engineering** | Conversational agents, document intelligence, LLM-enabled workflows, real-time voice interfaces, and human-in-the-loop systems. |
+| **Software & cloud architecture** | Full-stack applications, APIs, integrations, serverless backends, authentication, and data modeling. |
+| **Digital commerce** | B2B platforms, product discovery, catalog intelligence, and enterprise digital experiences. |
+| **Web & mobile products** | Modern web applications, native and cross-platform mobile experiences, and product-oriented design. |
 
-**Technologies I work with:** TypeScript / JavaScript · React / Next.js · Node.js · Swift / SwiftUI · Kotlin / Jetpack Compose · Firebase · Google Cloud · Git
+## Selected projects
 
-## Selected work
+A selection of platforms and products I've worked on. Most of the underlying repositories are private; the descriptions below focus on the problems, systems, and engineering approaches behind the work.
 
-### [juanfer.ai](https://juanfer.ai) — AI strategy, engineering & advisory
+### MORIANE AI Discovery Agent
+**Conversational AI · Requirements engineering · Document intelligence**  
+*Phase 1 proof of concept*
 
-My personal platform for exploring how organizations can move beyond isolated AI experiments and build AI into meaningful business processes.
+An AI-powered discovery consultant designed to turn client briefs and technical questionnaires into structured, traceable requirements through natural voice and text conversations.
 
-- Focused on practical AI adoption, architecture, governance, and measurable outcomes.
-- Includes the **STRAVAI** approach to connecting AI initiatives with business strategy.
-- Reflects my work bridging technical implementation and executive decision-making.
+- Ingests **PDFs, DOCX files, websites, and text**, extracting discovery topics and separating documented facts from unanswered questions.
+- Supports bilingual interviews in **English and Latin American Spanish**, using the **OpenAI Realtime API over WebRTC**, with text fallback and participant-consent checks.
+- Captures evidence-linked answers, identifies gaps and contradictions, creates follow-up tasks, and prepares executive summaries and structured exports.
+- Maintains context across sessions so discovery can continue without starting over.
 
-**Focus:** Applied AI · AI strategy · Digital transformation
+**Technology:** Next.js · Node.js · Firebase · OpenAI APIs · WebRTC
 
-### [MatchFore](https://matchfore.com) — Connecting golfers through technology
+### Aegis Commerce Suite
+**B2B commerce · Semantic discovery · Product data intelligence**
 
-A cross-platform product designed to help golfers discover compatible playing partners and rounds based on availability, location, and playing preferences.
+A modular B2B platform bringing together three complementary capabilities for managing product information and discovery:
 
-- Native mobile experiences for **iOS (Swift / SwiftUI)** and **Android (Kotlin / Jetpack Compose)**.
-- Web experience using **React / Next.js**.
-- Backend architecture built around **Firebase** services.
+- **Search Index:** Semantic product discovery and ranking workflows.
+- **Product Intelligence:** Taxonomy management and product enrichment.
+- **Crawler:** Web crawling dashboards and execution-log monitoring.
 
-**Focus:** Product engineering · Mobile architecture · Full-stack development
+Built as a lightweight monorepo with a **React + Vite** frontend, a **Node.js / Express** API, and **Firebase Authentication**. The interface is designed for responsive, enterprise-oriented workflows.
 
-### [LeadWize](https://leadwize.app) — Learning designed for real-life application
+**Technology:** React · Vite · React Router · Node.js · Express · Firebase Auth · CSS
 
-A digital learning platform centered on personal and professional leadership development, translating concepts into structured learning experiences, reflection, and action.
+### ChefGo
+**AI-assisted personalization · Mobile commerce · Subscription systems**
 
-- Product design focused on clarity, progression, and user engagement.
-- Modular learning experiences built around programs and content.
-- An example of combining product thinking with software development and human-centered design.
+A mobile-first product for personalized meal planning and delivery, designed around dietary preferences, nutritional goals, allergies, and flexible meal subscriptions.
 
-**Focus:** Digital product development · Learning experiences · Platform design
+- **Mobile experience:** React Native and Expo application for onboarding, meal planning, account management, addresses, and subscription flows.
+- **Payments & subscriptions:** Stripe integration and Firebase Cloud Functions supporting payment initiation, subscription confirmation, renewals, and cancellation.
+- **Backend:** Firebase Authentication, Firestore, Storage, and App Check, with scheduled functions for recurring operations.
+- **Roadmap:** AI-generated weekly menus, delivery tracking, a web experience, and administration capabilities.
+
+**Technology:** React Native · Expo Router · Firebase · Cloud Functions · Stripe · Next.js (planned web app)
+
+### [MatchFore](https://matchfore.com)
+**Golf technology · Cross-platform apps · Community products**
+
+A product designed to help golfers find compatible playing partners and rounds based on availability, location, and preferences—making it easier to spend less time coordinating and more time playing.
+
+- Native app architecture for **iOS (Swift / SwiftUI)** and **Android (Kotlin / Jetpack Compose)**.
+- Web experience built with **React / Next.js**.
+- Shared backend services using **Firebase** for authentication, data, storage, and application workflows.
+
+**Technology:** Swift · SwiftUI · Kotlin · Jetpack Compose · React · Next.js · Firebase  
+**Website:** [matchfore.com](https://matchfore.com)
+
+### UpCommodity Market Intelligence
+**Enterprise CMS · Content platforms · Digital experiences**
+
+A HubSpot CMS experience for a commodity market intelligence offering, built around an **Elevate-based theme** and designed to support publication, discovery, and subscription-oriented content experiences.
+
+- Page and component structure for **market intelligence, plans, publications, reports, and member content**.
+- Reusable layouts and conversion paths for **lead capture, waitlists, newsletters, and gated resources**.
+- A planned integration path for **Market Desk AI**, alongside membership and access-control experiences.
+
+**Platform:** HubSpot CMS · HubSpot Elevate · Theme customization · Reusable CMS modules
+
+### [LeadWize](https://leadwize.app)
+**Digital learning · Product design · Human-centered experiences**
+
+A learning platform focused on personal and professional leadership, turning ideas into structured programs, practical reflection, and meaningful action.
+
+- Modular content and program architecture.
+- Learning experiences designed around progression, engagement, and application.
+- A product approach that balances technology, user experience, and human development.
+
+**Focus:** Product engineering · Learning platforms · UX design  
+**Website:** [leadwize.app](https://leadwize.app)
+
+### [juanfer.ai](https://juanfer.ai)
+**Applied AI · Technology strategy · Business transformation**
+
+My personal platform for exploring how businesses can move beyond isolated AI experiments and embed intelligent capabilities into real processes.
+
+- Connects AI architecture and implementation with measurable business outcomes.
+- Introduces **STRAVAI**, my approach to making AI initiatives strategic, governed, and actionable.
+- Brings together my work in software, consulting, and digital transformation.
+
+**Website:** [juanfer.ai](https://juanfer.ai)
+
+## Technologies across my projects
+
+**Languages:** TypeScript · JavaScript · Swift · Kotlin  
+**Web & mobile:** React · Next.js · Vite · React Native · Expo · SwiftUI · Jetpack Compose  
+**Backend & cloud:** Node.js · Express · Firebase · Firestore · Cloud Functions · Google Cloud  
+**AI & real-time:** OpenAI APIs · Realtime API · WebRTC · Document-processing workflows  
+**Commerce & platforms:** Stripe · HubSpot CMS · Enterprise integrations
 
 ## How I approach engineering
 
-**Start with the problem.** Understand users, constraints, and the business outcome before choosing a technology.
+**Start with the problem.** Understand the people, processes, and outcomes before selecting tools.
 
-**Design for the long term.** Favor clear architecture, security, maintainability, and the ability to evolve.
+**Design deliberately.** Favor clarity, security, maintainability, and systems that can evolve.
 
-**Use AI with purpose.** Integrate AI where it improves a workflow or creates a measurable advantage—not simply because it is available.
+**Apply AI where it belongs.** Make intelligence useful, observable, and accountable—not merely impressive in a demo.
 
-**Stay close to execution.** Good strategies become valuable when they can be translated into working products.
+**Bridge strategy and execution.** Connect high-level objectives with working software and measurable results.
 
-## A note about my repositories
+## About the private repositories
 
-Most of my current development work lives in **private repositories**, including products in progress and work that requires confidentiality. This profile showcases selected projects and the thinking behind them without publishing private source code or client information.
+Much of my work is developed in **private repositories** because it involves products in progress, client projects, or confidential implementations. This profile shares selected technical work and architectural context without exposing private source code or sensitive project information.
 
 ---
 
@@ -86,7 +147,7 @@ Most of my current development work lives in **private repositories**, including
 
 ### Let's connect
 
-I'm interested in conversations about **AI, software architecture, digital products, and technology-led business growth**.
+Interested in **AI, software architecture, digital commerce, or building ambitious products**?
 
 **[Explore my work at juanfer.ai](https://juanfer.ai)**
 
