@@ -1,12 +1,14 @@
 <div align="center">
 
-# Juan Fernando Vélez
+<a href="https://juanfer.ai">
+  <img src="assets/github-profile-banner.png" alt="Juan Fernando Vélez — Engineering technology. Creating business impact. Software Engineer · AI Solutions Architect · Technology Leader" width="100%" />
+</a>
 
-### Software Engineer · AI Solutions Architect · Technology Leader
+<br />
 
-**I design and build technology that turns complex business problems into practical, scalable solutions.**
+**I design and build intelligent products, scalable software, and digital commerce solutions that solve real business problems.**
 
-Systems engineer with 15+ years of experience spanning software, digital commerce, product development, and business leadership across Latin America.
+Systems engineer with 15+ years of experience across software, product development, enterprise technology, and business leadership in Latin America.
 
 [**Personal website**](https://juanfer.ai) &nbsp;·&nbsp; [**MatchFore**](https://matchfore.com) &nbsp;·&nbsp; [**LeadWize**](https://leadwize.app)
 
