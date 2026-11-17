@@ -46,7 +46,7 @@ My personal platform for exploring how organizations can move beyond isolated AI
 
 **Focus:** Applied AI · AI strategy · Digital transformation
 
-### MatchFore — Connecting golfers through technology
+### [MatchFore](https://matchfore.com) — Connecting golfers through technology
 
 A cross-platform product designed to help golfers discover compatible playing partners and rounds based on availability, location, and playing preferences.
 
