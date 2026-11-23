@@ -85,7 +85,7 @@ My personal platform for exploring how businesses can move beyond isolated AI ex
 
 **Website:** [juanfer.ai](https://juanfer.ai)
 
-### UpCommodity Market Intelligence
+### [UpCommodity Market Intelligence]([https://juanfer.ai](https://marketintelligence.upcommodity.com/))
 **Enterprise CMS · Content platforms · Digital experiences**
 
 A HubSpot CMS experience for a commodity market intelligence offering, built around an **Elevate-based theme** and designed to support publication, discovery, and subscription-oriented content experiences.
