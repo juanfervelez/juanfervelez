@@ -37,19 +37,6 @@ I'm particularly interested in **applied AI, intelligent workflows, digital comm
 
 A selection of platforms and products I've worked on. Most of the underlying repositories are private; the descriptions below focus on the problems, systems, and engineering approaches behind the work.
 
-### MORIANE AI Discovery Agent
-**Conversational AI · Requirements engineering · Document intelligence**  
-*Phase 1 proof of concept*
-
-An AI-powered discovery consultant designed to turn client briefs and technical questionnaires into structured, traceable requirements through natural voice and text conversations.
-
-- Ingests **PDFs, DOCX files, websites, and text**, extracting discovery topics and separating documented facts from unanswered questions.
-- Supports bilingual interviews in **English and Latin American Spanish**, using the **OpenAI Realtime API over WebRTC**, with text fallback and participant-consent checks.
-- Captures evidence-linked answers, identifies gaps and contradictions, creates follow-up tasks, and prepares executive summaries and structured exports.
-- Maintains context across sessions so discovery can continue without starting over.
-
-**Technology:** Next.js · Node.js · Firebase · OpenAI APIs · WebRTC
-
 ### Aegis Commerce Suite
 **B2B commerce · Semantic discovery · Product data intelligence**
 
@@ -63,18 +50,6 @@ Built as a lightweight monorepo with a **React + Vite** frontend, a **Node.js / 
 
 **Technology:** React · Vite · React Router · Node.js · Express · Firebase Auth · CSS
 
-### ChefGo
-**AI-assisted personalization · Mobile commerce · Subscription systems**
-
-A mobile-first product for personalized meal planning and delivery, designed around dietary preferences, nutritional goals, allergies, and flexible meal subscriptions.
-
-- **Mobile experience:** React Native and Expo application for onboarding, meal planning, account management, addresses, and subscription flows.
-- **Payments & subscriptions:** Stripe integration and Firebase Cloud Functions supporting payment initiation, subscription confirmation, renewals, and cancellation.
-- **Backend:** Firebase Authentication, Firestore, Storage, and App Check, with scheduled functions for recurring operations.
-- **Roadmap:** AI-generated weekly menus, delivery tracking, a web experience, and administration capabilities.
-
-**Technology:** React Native · Expo Router · Firebase · Cloud Functions · Stripe · Next.js (planned web app)
-
 ### [MatchFore](https://matchfore.com)
 **Golf technology · Cross-platform apps · Community products**
 
@@ -86,17 +61,6 @@ A product designed to help golfers find compatible playing partners and rounds b
 
 **Technology:** Swift · SwiftUI · Kotlin · Jetpack Compose · React · Next.js · Firebase  
 **Website:** [matchfore.com](https://matchfore.com)
-
-### UpCommodity Market Intelligence
-**Enterprise CMS · Content platforms · Digital experiences**
-
-A HubSpot CMS experience for a commodity market intelligence offering, built around an **Elevate-based theme** and designed to support publication, discovery, and subscription-oriented content experiences.
-
-- Page and component structure for **market intelligence, plans, publications, reports, and member content**.
-- Reusable layouts and conversion paths for **lead capture, waitlists, newsletters, and gated resources**.
-- A planned integration path for **Market Desk AI**, alongside membership and access-control experiences.
-
-**Platform:** HubSpot CMS · HubSpot Elevate · Theme customization · Reusable CMS modules
 
 ### [LeadWize](https://leadwize.app)
 **Digital learning · Product design · Human-centered experiences**
@@ -120,6 +84,42 @@ My personal platform for exploring how businesses can move beyond isolated AI ex
 - Brings together my work in software, consulting, and digital transformation.
 
 **Website:** [juanfer.ai](https://juanfer.ai)
+
+### UpCommodity Market Intelligence
+**Enterprise CMS · Content platforms · Digital experiences**
+
+A HubSpot CMS experience for a commodity market intelligence offering, built around an **Elevate-based theme** and designed to support publication, discovery, and subscription-oriented content experiences.
+
+- Page and component structure for **market intelligence, plans, publications, reports, and member content**.
+- Reusable layouts and conversion paths for **lead capture, waitlists, newsletters, and gated resources**.
+- A planned integration path for **Market Desk AI**, alongside membership and access-control experiences.
+
+**Platform:** HubSpot CMS · HubSpot Elevate · Theme customization · Reusable CMS modules
+
+### MORIANE AI Discovery Agent
+**Conversational AI · Requirements engineering · Document intelligence**  
+*Phase 1 proof of concept*
+
+An AI-powered discovery consultant designed to turn client briefs and technical questionnaires into structured, traceable requirements through natural voice and text conversations.
+
+- Ingests **PDFs, DOCX files, websites, and text**, extracting discovery topics and separating documented facts from unanswered questions.
+- Supports bilingual interviews in **English and Latin American Spanish**, using the **OpenAI Realtime API over WebRTC**, with text fallback and participant-consent checks.
+- Captures evidence-linked answers, identifies gaps and contradictions, creates follow-up tasks, and prepares executive summaries and structured exports.
+- Maintains context across sessions so discovery can continue without starting over.
+
+**Technology:** Next.js · Node.js · Firebase · OpenAI APIs · WebRTC
+
+### ChefGo
+**AI-assisted personalization · Mobile commerce · Subscription systems**
+
+A mobile-first product for personalized meal planning and delivery, designed around dietary preferences, nutritional goals, allergies, and flexible meal subscriptions.
+
+- **Mobile experience:** React Native and Expo application for onboarding, meal planning, account management, addresses, and subscription flows.
+- **Payments & subscriptions:** Stripe integration and Firebase Cloud Functions supporting payment initiation, subscription confirmation, renewals, and cancellation.
+- **Backend:** Firebase Authentication, Firestore, Storage, and App Check, with scheduled functions for recurring operations.
+- **Roadmap:** AI-generated weekly menus, delivery tracking, a web experience, and administration capabilities.
+
+**Technology:** React Native · Expo Router · Firebase · Cloud Functions · Stripe · Next.js (planned web app)
 
 ## Technologies across my projects
 
